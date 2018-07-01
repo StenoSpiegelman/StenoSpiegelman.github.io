@@ -897,7 +897,7 @@ footer .socials a {
   line-height: 94px;
   text-align: center;
   background: #ffffff;
-  color: #423e3e;
+  color: #683131;
   border-radius: 50%;
   font-size: 60px;
 }
@@ -910,11 +910,11 @@ footer .socials a {
   }
 }
 footer .socials a:hover {
-  background: #423e3e;
+  background: #683131;
   color: #ffffff;
 }
 footer .copyright {
-  color: #000000;
+  color: #683131;
 }
 footer .copyright a:hover {
   text-decoration: underline;
