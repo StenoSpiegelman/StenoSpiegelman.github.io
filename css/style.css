@@ -491,7 +491,6 @@ a[href^="tel:"] {
   background-size: cover;
 }
 .parallax1 {
-  text-align: center;
   background-color: #FFF;
   background-image: url(../images/parallax01.jpg);
   padding: 132px 0 127px;
