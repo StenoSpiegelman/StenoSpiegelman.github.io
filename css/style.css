@@ -162,6 +162,7 @@ a[href^="tel:"] {
 }
 .indents-2 {
   padding: 0 220px;
+  color: white;
 }
 @media (max-width: 1199px) {
   .indents-2 {
@@ -170,6 +171,10 @@ a[href^="tel:"] {
 }
 .indents-3 {
   padding: 0 55px 0 0;
+}
+.indents-4 {
+  padding: 0 220px;
+  color: black;
 }
 .tresessanta {
     position: relative;
@@ -436,7 +441,7 @@ a[href^="tel:"] {
 }
 /*==================  Stuck menu  ======================*/
 .isStuck {
-  background: #994f4f;
+  background: #823f3f;
   z-index: 999;
   border-bottom: 1px solid #333333;
 }
@@ -549,7 +554,7 @@ a[href^="tel:"] {
                      HEADER  Section
 =========================================================*/
 header {
-  background: #a95858;
+  background: #823f3f;
 }
 header .brand {
   float: left;
@@ -913,7 +918,7 @@ footer .socials a {
   line-height: 94px;
   text-align: center;
   background: #ffffff;
-  color: #683131;
+  color: #823f3f;
   border-radius: 50%;
   font-size: 60px;
 }
@@ -926,7 +931,7 @@ footer .socials a {
   }
 }
 footer .socials a:hover {
-  background: #683131;
+  background: #823f3f;
   color: #ffffff;
 }
 footer .copyright {
@@ -1033,4 +1038,25 @@ footer .tm {
 }
 .map_locations {
   display: none;
+}
+
+.column {
+    float: left;
+    width: 30%;
+}
+
+.columnspace {
+    float: left;
+    width: 5%;
+}
+
+.columns{
+    margin-top: 40px;
+}
+
+/* Clear floats after the columns */
+.columns:after {
+    content: "";
+    display: table;
+    clear: both;
 }
